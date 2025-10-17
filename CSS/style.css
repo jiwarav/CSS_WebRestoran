@@ -1,0 +1,127 @@
+
+/*Background dan font seluruh halaman*/
+body {
+    background-color: #ffd592a9;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*pengaturan posisi header*/
+header {
+    text-align: center;
+}
+
+/*styling h1*/
+h1 {
+    text-shadow: 7px 7px 7px gray;
+}
+
+/*styling h3*/
+h3 {
+    text-align: center;
+    color: #e68e00;
+}
+
+/*pengaturan posisi navigasi*/
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+/*styling link*/
+a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+/*styling link hover*/
+a:hover {
+    color: orangered;
+    text-decoration: underline;
+    size: 30px;
+    text-shadow: 7px 7px 7px gray;
+}
+
+/*pengaturan posisi footer*/
+footer {
+    text-align: center;
+    font-size: small;
+    margin-top: 16px;
+}
+
+/*padding pada gambar dalam figure*/
+figure {
+    padding-top: 10px;
+}
+
+/*pengaturan gambar di beranda*/
+.homeImg {
+    display: block;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+
+/*Pengaturan table keseluruhan*/
+table, th, td {
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 75%;
+}
+
+/*pengaturan paragraf menu*/
+.menu {
+    text-align: center;
+}
+
+/*pengaturan gambar menu*/
+.menuImg {
+    width: 150px;
+    border-radius: 15px;
+}
+
+/*styling header tabel*/
+.trHeader {
+    background-color: #e68e00;
+}
+
+/*Pengaturan ukuran cell*/
+.tabHeader1 {
+    width: 200px;
+}
+
+.tabHeader2 {
+    width: 100px;
+}
+
+.tabHeader3 {
+    width: 150px;
+}
+
+.tabHeader4 {
+    width: 20px;
+}
+
+td {
+    width: 200px;
+}
+
+/*spacing kiri untuk form*/
+form {
+    margin-left: 10px;
+}
+
+/*pengaturan input dan textarea*/
+input, textarea {
+    border-radius: 5px;
+}
+
+/* style di mobile */
+  @media only screen and (min-width: 600px) {
+    main {
+        max-width: 800px;
+    }
+  }
